@@ -1,5 +1,5 @@
 # Katarite
-大原侑祐　担当箇所
+大原侑祐　担当箇所 \n
 ・EndApp.cs ：　Escapeキーでアプリ終了
 ・Mouse.cs　：　マウスカーソルの表示制御
 ・Tut/Tutrial.cs　：　ShoulderDriveのチュートリアル

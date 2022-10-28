@@ -236,6 +236,7 @@ public class ResultViewer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if(endTimeCounter >= 0){
             endTimeCounter += Time.deltaTime;
             timeLimitText.text = "あと"+((int)(endTime - endTimeCounter)) + "秒でタイトルに戻ります";
@@ -248,6 +249,15 @@ public class ResultViewer : MonoBehaviour
                 EndResult();
                 SceneManager.LoadScene("StartScene");
             }
+        }
+        */
+        nowRankText.enabled = true;
+        rankAlphabetShadow.enabled = true;
+
+        timeLimitText.text = "Enterキーでタイトルに戻ります。";
+        if(Input.GetKeyDown(KeyCode.Return)){
+            EndResult();
+            SceneManager.LoadScene("StartScene");
         }
     }
 
